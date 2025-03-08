@@ -8,6 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<div>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Name" required>
+		</div>
+		<div>
+			<label for="phone">Phone Number</label>
+			<input type="text" id="phone" name="phone" placeholder="Phone Number" required></input>
+		</div>
+		<div>
+			<label for="address">Address</label>
+			<input type="text" id="address" placeholder="Address" required></input>
+		</div>
+		<div>
+           <input type="checkbox">Have you ever lived with a Dog before?</input>
+		<div>
+		<label for="breeds">Please select your preffered breeds</label>
+		<div>
+			<select name="breeds" id="breeds" multiple>
+			<option value="labrador">Labrador</option>
+			<option value="pitbull">Pitbull</option>
+			<option value="german shephard">German Shephard</option>
+		</select>
+		</div>
+		
+		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
